@@ -1,0 +1,120 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Background Image */
+    background-image: url('/image/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Container Styling */
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid #019eff;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(189, 204, 229, 0.448); /* Light background for content */
+}
+
+/* Heading Styling */
+.app-heading {
+    font-size: 2em; /* Heading size */
+    color: #0c0258; /* Text color */
+    text-align: center;
+    margin-bottom: 20px; /* Space between heading and search bar */
+}
+
+/* Weather App Layout */
+.weather-app {
+    padding: 30px 20px; /* Extra padding for more spacing */
+    color: #000000;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #1806a2;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #1806a2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s; /* Transition for hover and click */
+}
+
+.search-bar button:hover {
+    background-color: #002a50; /* Darker on hover */
+}
+
+.search-bar button:active {
+    background-color: #011223; /* Even darker on click */
+    transform: scale(0.90); /* Scale down for a click effect */
+}
+
+.weather-display {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.weather-display h2 {
+    font-size: 1.5em;
+}
+
+.weather-display h1 {
+    font-size: 3em;
+    color: #100048;
+}
+
+.highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.highlight-card {
+    flex: 1 1 45%;
+    background-color: #fffffff6;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 64, 93, 0.956);
+    text-align: center;
+}
+
+.highlight-card h3 {
+    font-size: 1em;
+    color: #1806a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.highlight-card p {
+    font-size: 1.2em;
+}

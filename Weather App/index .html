@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Management App</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Weather Icons Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Main Weather Section -->
+        <div class="weather-app">
+            <!-- Heading for the App -->
+            <h1 class="app-heading">Weather Management App</h1>
+
+            <div class="search-bar">
+                <input type="text" id="locationInput" placeholder="Enter location...">
+                <button onclick="getWeather()"><i class="fas fa-search"></i> Search</button>
+            </div>
+            <div class="weather-display">
+                <h2 id="cityName">City Name</h2>
+                <h1 id="temperature">-- °C</h1>
+                <p id="condition"><i class="wi wi-day-sunny"></i> clear</p>
+            </div>
+
+            <!-- Additional Weather Metrics Section -->
+            <div class="highlights">
+                <div class="highlight-card">
+                    <h3><i class="wi wi-humidity"></i> Humidity</h3>
+                    <p id="humidity">-- %</p>
+                </div>
+                <div class="highlight-card">
+                    <h3><i class="fas fa-wind"></i> Wind Speed</h3>
+                    <p id="windSpeed">-- km/h</p>
+                </div>
+                <div class="highlight-card">
+                    <h3><i class="wi wi-sunrise"></i> Sunrise</h3>
+                    <p id="sunrise">--:--</p>
+                </div>
+                <div class="highlight-card">
+                    <h3><i class="wi wi-sunset"></i> Sunset</h3>
+                    <p id="sunset">--:--</p>
+                </div>
+                <div class="highlight-card">
+                    <h3><i class="wi wi-day-sunny"></i> UV Index</h3>
+                    <p id="uvIndex">--</p>
+                </div>
+                <div class="highlight-card">
+                    <h3><i class="wi wi-barometer"></i> Pressure</h3>
+                    <p id="pressure">-- hPa</p>
+                </div>
+                <div class="highlight-card">
+                    <h3><i class="wi wi-raindrop"></i> Precipitation</h3>
+                    <p id="precipitation">-- %</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
