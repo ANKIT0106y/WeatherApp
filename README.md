@@ -83,7 +83,8 @@ Follow these steps to run the Weather Management App locally:
 
 1. Clone the Repository:
 
-git clone: https://github.com/ANKIT0106y/WeatherApp/tree/main
+git clone https://github.com/yourusername/WeatherApp.git
+cd WeatherApp
 
 2. Add Your OpenWeatherMap API Key:
 
