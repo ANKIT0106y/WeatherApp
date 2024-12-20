@@ -1,12 +1,12 @@
 # WeatherApp
-**Weather Management App**
+# Weather Management App
 
 A responsive, modern web application to display real-time weather data based on user input. It fetches weather information such as temperature, humidity, wind speed, pressure, sunrise, sunset, and other metrics using the OpenWeather API. The app features a user-friendly interface with weather icons to represent different weather conditions.
 
 
 ---
 
-**Project Overview**
+# Project Overview
 
 This project is designed to give users the ability to enter a location (city name) and view real-time weather data such as:
 
@@ -32,7 +32,7 @@ The app makes use of the OpenWeatherMap API to fetch weather data and display it
 
 ---
 
-**Features**
+# Features
 
 Search Bar: Allows users to search for the weather of any location by entering the city name.
 
@@ -48,7 +48,7 @@ Background: Customizable background image to enhance the user experience.
 
 ---
 
-**Technologies Used**
+# Technologies Used
 
 HTML: Markup for structuring the app.
 
@@ -62,7 +62,7 @@ OpenWeatherMap API: Provides weather data for different locations.
 
 ---
 
-**Requirements**
+# Requirements
 
 1. Text Editor/IDE: You can use any text editor such as VS Code.
 
@@ -77,7 +77,7 @@ OpenWeatherMap API: Provides weather data for different locations.
 
 ---
 
-**Setup Instructions**
+# Setup Instructions
 
 Follow these steps to run the Weather Management App locally:
 
@@ -102,7 +102,7 @@ Or, use a live server extension in your IDE (such as the "Live Server" extension
 
 ---
 
-**How to Run the Project**
+# How to Run the Project
 
 1. After setting up the project as described above, you can run the app by simply opening the index.html file in any modern web browser.
 
@@ -121,7 +121,7 @@ The weather details including temperature, wind speed, humidity, etc., will be d
 
 ---
 
-**Customization Options**
+# Customization Options
 
 Background Image: You can replace the default background image located in /images/background.jpg with your own preferred image.
 
@@ -131,7 +131,7 @@ Weather Icons: The app uses Weather Icons for representing weather conditions. Y
 
 ---
 
-**API Key and Limits**
+# API Key and Limits
 
 OpenWeatherMap API:
 
@@ -141,7 +141,7 @@ Free-tier usage is available with limited requests per minute. Check the pricing
 
 ---
 
-**Troubleshooting**
+# Troubleshooting
 
 1. Location Not Found:
 
@@ -159,7 +159,7 @@ If the API is down or limited, retry later.
 
 ---
 
-**Acknowledgements**
+# Acknowledgements
 
 OpenWeatherMap for providing the weather data API.
 
